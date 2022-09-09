@@ -14,7 +14,7 @@ package documizeapi
 import (
 	"encoding/json"
 
-	api "github.com/documize/community/core/convapi"
+	api "github.com/DFofanov/community/core/convapi"
 
 	"context"
 )

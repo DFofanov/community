@@ -13,7 +13,7 @@
 package onboard
 
 import (
-	"github.com/documize/community/domain/store"
+	"github.com/DFofanov/community/domain/store"
 )
 
 // Store provides data access to version information.

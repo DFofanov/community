@@ -19,7 +19,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/documize/community/core/env"
+	"github.com/DFofanov/community/core/env"
 	"github.com/jmoiron/sqlx"
 )
 

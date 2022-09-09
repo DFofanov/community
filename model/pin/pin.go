@@ -11,7 +11,7 @@
 
 package pin
 
-import "github.com/documize/community/model"
+import "github.com/DFofanov/community/model"
 
 // Pin defines a saved link to a document or space
 type Pin struct {

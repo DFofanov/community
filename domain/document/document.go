@@ -12,13 +12,13 @@
 package document
 
 import (
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/category"
-	"github.com/documize/community/model/doc"
-	"github.com/documize/community/model/page"
-	"github.com/documize/community/model/workflow"
+	"github.com/DFofanov/community/core/uniqueid"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/category"
+	"github.com/DFofanov/community/model/doc"
+	"github.com/DFofanov/community/model/page"
+	"github.com/DFofanov/community/model/workflow"
 	"github.com/pkg/errors"
 )
 

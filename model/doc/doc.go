@@ -15,8 +15,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/documize/community/model"
-	"github.com/documize/community/model/workflow"
+	"github.com/DFofanov/community/model"
+	"github.com/DFofanov/community/model/workflow"
 )
 
 // Document represents the purpose of Documize.

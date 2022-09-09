@@ -20,10 +20,10 @@ import (
 	"io/ioutil"
 	"net/http"
 
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/domain/section/provider"
+	"github.com/DFofanov/community/domain/store"
 	jira "github.com/andygrunwald/go-jira"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain/section/provider"
-	"github.com/documize/community/domain/store"
 )
 
 //

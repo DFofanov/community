@@ -8,11 +8,11 @@ It's built with Golang + EmberJS and compiled down to a single executable binary
 
 All you need to provide is your database -- PostgreSQL, Microsoft SQL Server or any MySQL variant.
 
-![Documize Community](https://github.com/documize/community/blob/master/screenshot.png?raw=true)
+![Documize Community](https://github.com/DFofanov/community/blob/master/screenshot.png?raw=true)
 
 ## Latest Release
 
-[Community edition: v5.2.1](https://github.com/documize/community/releases)
+[Community edition: v5.2.1](https://github.com/DFofanov/community/releases)
 
 [Community+ edition: v5.2.1](https://www.documize.com/community)
 

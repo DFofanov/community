@@ -14,9 +14,9 @@ package database
 import (
 	"fmt"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/streamutil"
-	"github.com/documize/community/server/web"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/streamutil"
+	"github.com/DFofanov/community/server/web"
 )
 
 // Check that the database is configured correctly and that all the required tables exist.

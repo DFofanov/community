@@ -13,14 +13,14 @@
 package onboard
 
 import (
-	"github.com/documize/community/domain"
-	"github.com/documize/community/model/attachment"
-	"github.com/documize/community/model/category"
-	"github.com/documize/community/model/doc"
-	"github.com/documize/community/model/label"
-	"github.com/documize/community/model/link"
-	"github.com/documize/community/model/page"
-	"github.com/documize/community/model/space"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/model/attachment"
+	"github.com/DFofanov/community/model/category"
+	"github.com/DFofanov/community/model/doc"
+	"github.com/DFofanov/community/model/label"
+	"github.com/DFofanov/community/model/link"
+	"github.com/DFofanov/community/model/page"
+	"github.com/DFofanov/community/model/space"
 )
 
 // SampleData holds initial welcome data used during installation process.

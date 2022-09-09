@@ -14,10 +14,10 @@ package markdown
 import (
 	"net/http"
 
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/domain/section/provider"
+	"github.com/DFofanov/community/domain/store"
 	"github.com/documize/blackfriday"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain/section/provider"
-	"github.com/documize/community/domain/store"
 	"github.com/microcosm-cc/bluemonday"
 )
 

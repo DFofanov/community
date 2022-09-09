@@ -11,13 +11,13 @@
 
 package storage
 
-// go test -timeout 30s github.com/documize/community/edition/storage -v
+// go test -timeout 30s github.com/DFofanov/community/edition/storage -v
 
 import (
 	"testing"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain/store"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/domain/store"
 )
 
 func TestSQLServerProviderDatabaseName(t *testing.T) {

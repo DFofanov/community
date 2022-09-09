@@ -14,8 +14,8 @@ package auth
 import (
 	"encoding/json"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/model/auth"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/model/auth"
 )
 
 // StripAuthSecrets removes sensitive data from auth provider configuration

@@ -14,8 +14,8 @@ package action
 import (
 	"time"
 
-	"github.com/documize/community/core/timeutil"
-	"github.com/documize/community/model"
+	"github.com/DFofanov/community/core/timeutil"
+	"github.com/DFofanov/community/model"
 )
 
 // UserAction represents an action that a user should perform on a document.

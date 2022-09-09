@@ -12,7 +12,7 @@
 package org
 
 import (
-	"github.com/documize/community/model"
+	"github.com/DFofanov/community/model"
 )
 
 // Organization defines a tenant that uses this app.

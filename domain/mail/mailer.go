@@ -16,13 +16,13 @@ import (
 	"fmt"
 	"html/template"
 
-	"github.com/documize/community/core/asset"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/mail"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/setting"
-	ds "github.com/documize/community/domain/smtp"
-	"github.com/documize/community/domain/store"
+	"github.com/DFofanov/community/core/asset"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/mail"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/setting"
+	ds "github.com/DFofanov/community/domain/smtp"
+	"github.com/DFofanov/community/domain/store"
 	"github.com/pkg/errors"
 )
 

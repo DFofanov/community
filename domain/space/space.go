@@ -14,16 +14,16 @@ package space
 import (
 	"fmt"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/secrets"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/mail"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/account"
-	"github.com/documize/community/model/permission"
-	"github.com/documize/community/model/space"
-	"github.com/documize/community/model/user"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/secrets"
+	"github.com/DFofanov/community/core/uniqueid"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/mail"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/account"
+	"github.com/DFofanov/community/model/permission"
+	"github.com/DFofanov/community/model/space"
+	"github.com/DFofanov/community/model/user"
 )
 
 // Invite new user to a space that someone has shared with them.

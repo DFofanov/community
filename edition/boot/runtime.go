@@ -16,11 +16,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/documize/community/core/database"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/secrets"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/edition/storage"
+	"github.com/DFofanov/community/core/database"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/secrets"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/edition/storage"
 	"github.com/jmoiron/sqlx"
 )
 

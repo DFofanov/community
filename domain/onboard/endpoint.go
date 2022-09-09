@@ -20,15 +20,15 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/documize/community/core/asset"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	indexer "github.com/documize/community/domain/search"
-	"github.com/documize/community/domain/store"
-	om "github.com/documize/community/model/onboard"
-	"github.com/documize/community/model/permission"
+	"github.com/DFofanov/community/core/asset"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/response"
+	"github.com/DFofanov/community/core/uniqueid"
+	"github.com/DFofanov/community/domain"
+	indexer "github.com/DFofanov/community/domain/search"
+	"github.com/DFofanov/community/domain/store"
+	om "github.com/DFofanov/community/model/onboard"
+	"github.com/DFofanov/community/model/permission"
 )
 
 // Handler contains the runtime information such as logging and database.

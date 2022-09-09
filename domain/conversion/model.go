@@ -12,7 +12,7 @@
 package conversion
 
 import (
-	api "github.com/documize/community/core/convapi"
+	api "github.com/DFofanov/community/core/convapi"
 )
 
 // StorageProvider imports and stores documents

@@ -15,9 +15,9 @@ package convert
 import (
 	"errors"
 
-	"github.com/documize/community/core/api/convert/html"
-	"github.com/documize/community/core/api/plugins"
-	api "github.com/documize/community/core/convapi"
+	"github.com/DFofanov/community/core/api/convert/html"
+	"github.com/DFofanov/community/core/api/plugins"
+	api "github.com/DFofanov/community/core/convapi"
 
 	"context"
 )

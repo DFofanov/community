@@ -16,14 +16,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/stringutil"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/attachment"
-	"github.com/documize/community/model/doc"
-	"github.com/documize/community/model/page"
-	"github.com/documize/community/model/search"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/stringutil"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/attachment"
+	"github.com/DFofanov/community/model/doc"
+	"github.com/DFofanov/community/model/page"
+	"github.com/DFofanov/community/model/search"
 	"github.com/pkg/errors"
 )
 

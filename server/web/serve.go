@@ -16,10 +16,10 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/documize/community/core/asset"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/secrets"
-	"github.com/documize/community/domain/store"
+	"github.com/DFofanov/community/core/asset"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/secrets"
+	"github.com/DFofanov/community/domain/store"
 )
 
 // SiteInfo describes set-up information about the site

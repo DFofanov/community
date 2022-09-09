@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/documize/community/core/stringutil"
-	"github.com/documize/community/model/auth"
-	"github.com/documize/community/model/user"
+	"github.com/DFofanov/community/core/stringutil"
+	"github.com/DFofanov/community/model/auth"
+	"github.com/DFofanov/community/model/user"
 	"github.com/pkg/errors"
 )
 

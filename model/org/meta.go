@@ -14,8 +14,8 @@ package org
 import (
 	"time"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/domain"
 )
 
 // SitemapDocument details a document that can be exposed via Sitemap.

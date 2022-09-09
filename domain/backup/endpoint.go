@@ -41,16 +41,16 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/documize/community/core/request"
-	"github.com/documize/community/model/audit"
+	"github.com/DFofanov/community/core/request"
+	"github.com/DFofanov/community/model/audit"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/core/streamutil"
-	"github.com/documize/community/domain"
-	indexer "github.com/documize/community/domain/search"
-	"github.com/documize/community/domain/store"
-	m "github.com/documize/community/model/backup"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/response"
+	"github.com/DFofanov/community/core/streamutil"
+	"github.com/DFofanov/community/domain"
+	indexer "github.com/DFofanov/community/domain/search"
+	"github.com/DFofanov/community/domain/store"
+	m "github.com/DFofanov/community/model/backup"
 )
 
 // Handler contains the runtime information such as logging and database.

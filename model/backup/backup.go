@@ -15,10 +15,10 @@ package backup
 import (
 	"time"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/model"
-	"github.com/documize/community/model/org"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/model"
+	"github.com/DFofanov/community/model/org"
 )
 
 // Manifest contains backup meta information.

@@ -14,11 +14,11 @@ package permission
 import (
 	"database/sql"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	group "github.com/documize/community/model/group"
-	pm "github.com/documize/community/model/permission"
-	u "github.com/documize/community/model/user"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	group "github.com/DFofanov/community/model/group"
+	pm "github.com/DFofanov/community/model/permission"
+	u "github.com/DFofanov/community/model/user"
 )
 
 // CanViewSpaceDocument returns if the user has permission to view a document within the specified folder.
@@ -165,7 +165,6 @@ func CanManageSpace(ctx domain.RequestContext, s store.Store, spaceID string) bo
 
 	return false
 }
-
 
 // CanViewSpace returns if the user has permission to view the given spaceID.
 func CanViewSpace(ctx domain.RequestContext, s store.Store, spaceID string) bool {

@@ -14,7 +14,7 @@ package ldap
 import (
 	"testing"
 
-	lm "github.com/documize/community/model/auth"
+	lm "github.com/DFofanov/community/model/auth"
 )
 
 // Works against https://github.com/rroemhild/docker-test-openldap

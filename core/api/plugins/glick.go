@@ -17,12 +17,12 @@ import (
 	"io/ioutil"
 	"time"
 
-	"github.com/documize/community/core/api/convert/apidocumizecom"
-	"github.com/documize/community/core/api/convert/documizeapi"
-	"github.com/documize/community/core/api/convert/html"
-	"github.com/documize/community/core/api/convert/md"
-	api "github.com/documize/community/core/convapi"
-	"github.com/documize/community/domain/store"
+	"github.com/DFofanov/community/core/api/convert/apidocumizecom"
+	"github.com/DFofanov/community/core/api/convert/documizeapi"
+	"github.com/DFofanov/community/core/api/convert/html"
+	"github.com/DFofanov/community/core/api/convert/md"
+	api "github.com/DFofanov/community/core/convapi"
+	"github.com/DFofanov/community/domain/store"
 	"github.com/documize/glick"
 )
 

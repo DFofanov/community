@@ -14,7 +14,7 @@ package link
 import (
 	"strings"
 
-	"github.com/documize/community/model/link"
+	"github.com/DFofanov/community/model/link"
 	"golang.org/x/net/html"
 )
 

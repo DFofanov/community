@@ -15,10 +15,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/response"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
 )
 
 // Handler contains the runtime information such as logging and database.

@@ -17,10 +17,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/link"
+	"github.com/DFofanov/community/core/uniqueid"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/link"
 	"github.com/pkg/errors"
 )
 

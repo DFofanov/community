@@ -18,14 +18,14 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/documize/community/core/api/plugins"
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/secrets"
-	"github.com/documize/community/core/stringutil"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/server/web"
+	"github.com/DFofanov/community/core/api/plugins"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/secrets"
+	"github.com/DFofanov/community/core/stringutil"
+	"github.com/DFofanov/community/core/uniqueid"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/server/web"
 )
 
 // Handler contains the runtime information such as logging and database.

@@ -12,13 +12,13 @@
 package setting
 
 import (
-    "bytes"
-    "database/sql"
-    "fmt"
+	"bytes"
+	"database/sql"
+	"fmt"
 
-    "github.com/pkg/errors"
+	"github.com/pkg/errors"
 
-    "github.com/documize/community/domain/store"
+	"github.com/DFofanov/community/domain/store"
 )
 
 // Store provides data access to user permission information.

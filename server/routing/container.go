@@ -17,7 +17,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/documize/community/core/env"
+	"github.com/DFofanov/community/core/env"
 	"github.com/gorilla/mux"
 )
 
@@ -90,12 +90,12 @@ func Add(rt *env.Runtime, prefix, path string, methods, queries []string, endPtF
 }
 
 // AddPrivate endpoint
-func AddPrivate(rt *env.Runtime, path string, methods, queries []string, endPtFn RouteFunc)  {
+func AddPrivate(rt *env.Runtime, path string, methods, queries []string, endPtFn RouteFunc) {
 	Add(rt, RoutePrefixPrivate, path, methods, queries, endPtFn)
 }
 
 // AddPublic endpoint
-func AddPublic(rt *env.Runtime, path string, methods, queries []string, endPtFn RouteFunc)  {
+func AddPublic(rt *env.Runtime, path string, methods, queries []string, endPtFn RouteFunc) {
 	Add(rt, RoutePrefixPublic, path, methods, queries, endPtFn)
 }
 

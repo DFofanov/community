@@ -12,8 +12,8 @@
 package space
 
 import (
-	"github.com/documize/community/model"
-	"github.com/documize/community/model/workflow"
+	"github.com/DFofanov/community/model"
+	"github.com/DFofanov/community/model/workflow"
 )
 
 // Space defines a container for documents.

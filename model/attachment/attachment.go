@@ -11,7 +11,7 @@
 
 package attachment
 
-import "github.com/documize/community/model"
+import "github.com/DFofanov/community/model"
 
 // Attachment represents an attachment to a document.
 type Attachment struct {

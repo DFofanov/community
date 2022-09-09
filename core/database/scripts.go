@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/documize/community/core/asset"
-	"github.com/documize/community/core/env"
+	"github.com/DFofanov/community/core/asset"
+	"github.com/DFofanov/community/core/env"
 )
 
 // Scripts holds all .SQL files for all supported database providers.

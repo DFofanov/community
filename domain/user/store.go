@@ -18,11 +18,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/stringutil"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/user"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/stringutil"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/user"
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 )

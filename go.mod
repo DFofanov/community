@@ -1,4 +1,4 @@
-module github.com/documize/community
+module github.com/DFofanov/community
 
 go 1.18
 

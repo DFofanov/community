@@ -15,9 +15,9 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/label"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/label"
 	"github.com/pkg/errors"
 )
 

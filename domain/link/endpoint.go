@@ -17,18 +17,18 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/documize/community/core/stringutil"
+	"github.com/DFofanov/community/core/stringutil"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/request"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/permission"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/attachment"
-	"github.com/documize/community/model/link"
-	"github.com/documize/community/model/page"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/request"
+	"github.com/DFofanov/community/core/response"
+	"github.com/DFofanov/community/core/uniqueid"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/permission"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/attachment"
+	"github.com/DFofanov/community/model/link"
+	"github.com/DFofanov/community/model/page"
 )
 
 // Handler contains the runtime information such as logging and database.

@@ -18,9 +18,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/doc"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/doc"
 )
 
 // Store provides data access to space category information.

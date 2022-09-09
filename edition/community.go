@@ -17,14 +17,14 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/i18n"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/section"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/edition/boot"
-	"github.com/documize/community/edition/logging"
-	"github.com/documize/community/server"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/i18n"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/section"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/edition/boot"
+	"github.com/DFofanov/community/edition/logging"
+	"github.com/DFofanov/community/server"
 )
 
 //go:embed static/*

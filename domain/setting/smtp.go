@@ -15,8 +15,8 @@ package setting
 import (
 	"strconv"
 
-	"github.com/documize/community/domain/smtp"
-	"github.com/documize/community/domain/store"
+	"github.com/DFofanov/community/domain/smtp"
+	"github.com/DFofanov/community/domain/store"
 )
 
 // GetSMTPConfig returns SMTP configuration.

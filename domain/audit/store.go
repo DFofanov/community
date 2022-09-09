@@ -13,12 +13,12 @@
 package audit
 
 import (
-	"time"
 	"database/sql"
+	"time"
 
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/audit"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/audit"
 )
 
 // Store provides data access to audit log information.
@@ -45,12 +45,12 @@ func (s Store) Record(ctx domain.RequestContext, t audit.EventType) {
 	_, err := tx.Exec(s.Bind("INSERT INTO dmz_audit_log (c_orgid, c_userid, c_eventtype, c_ip, c_created) VALUES (?, ?, ?, ?, ?)"),
 		e.OrgID, e.UserID, e.Type, e.IP, e.Created)
 	if err != nil {
-	    s.Runtime.Rollback(tx)
+		s.Runtime.Rollback(tx)
 		s.Runtime.Log.Error("prepare audit insert", err)
 		return
 	}
 
-    s.Runtime.Commit(tx)
+	s.Runtime.Commit(tx)
 
 	return
 }

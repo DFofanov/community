@@ -15,15 +15,15 @@ import (
 	"database/sql"
 	"net/http"
 
-	"github.com/documize/community/core/env"
-	"github.com/documize/community/core/request"
-	"github.com/documize/community/core/response"
-	"github.com/documize/community/core/uniqueid"
-	"github.com/documize/community/domain"
-	"github.com/documize/community/domain/permission"
-	"github.com/documize/community/domain/section/provider"
-	"github.com/documize/community/domain/store"
-	"github.com/documize/community/model/page"
+	"github.com/DFofanov/community/core/env"
+	"github.com/DFofanov/community/core/request"
+	"github.com/DFofanov/community/core/response"
+	"github.com/DFofanov/community/core/uniqueid"
+	"github.com/DFofanov/community/domain"
+	"github.com/DFofanov/community/domain/permission"
+	"github.com/DFofanov/community/domain/section/provider"
+	"github.com/DFofanov/community/domain/store"
+	"github.com/DFofanov/community/model/page"
 )
 
 // Handler contains the runtime information such as logging and database.

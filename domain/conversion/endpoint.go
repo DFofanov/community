@@ -14,10 +14,10 @@ package conversion
 import (
 	"net/http"
 
-	api "github.com/documize/community/core/convapi"
-	"github.com/documize/community/core/env"
-	indexer "github.com/documize/community/domain/search"
-	"github.com/documize/community/domain/store"
+	api "github.com/DFofanov/community/core/convapi"
+	"github.com/DFofanov/community/core/env"
+	indexer "github.com/DFofanov/community/domain/search"
+	"github.com/DFofanov/community/domain/store"
 )
 
 // Handler contains the runtime information such as logging and database.
