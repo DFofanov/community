@@ -9,7 +9,7 @@ import Service, { inject as service } from '@ember/service';
 import $ from 'jquery';
 
 export default Service.extend({
-    langs: { enUS: [], deDE: [] , zhCN: [], ptBR: [], ptRU: [] },
+    langs: { enUS: [], deDE: [] , zhCN: [], ptBR: [], ruRU: [] },
     locales: [],
     session: service(),
 
@@ -28,8 +28,8 @@ export default Service.extend({
             this.langs.ptBR = data;
         });
         $.getJSON("/i18n/ru-RU.json", (data) => {
-            this.langs.ptRU = data;
-        });        
+            this.langs.ruRU = data;
+        });
     },
 
     localize(key, ...args) {
@@ -48,10 +48,10 @@ export default Service.extend({
             case "pt-BR":
                 str = this.langs.ptBR[key];
                 break;
-            case "pt-RU":
-                str = this.langs.ptRU[key];
-                break;    
-        }
+            case "ru-RU":
+                str = this.langs.ruRU[key];
+                break;
+            }
 
         if (_.isUndefined(str)) {
             // eslint-disable-next-line no-console
