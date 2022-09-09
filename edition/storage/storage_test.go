@@ -11,7 +11,7 @@
 
 package storage
 
-// go test -timeout 30s github.com/DFofanov/community/edition/storage -v
+// go test -timeout 30s github.com/documize/community/edition/storage -v
 
 import (
 	"testing"

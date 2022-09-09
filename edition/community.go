@@ -27,7 +27,7 @@ import (
 	"github.com/DFofanov/community/server"
 )
 
-////go:embed static/*
+//go:embed static/*
 var embeddedFiles embed.FS
 
 func main() {

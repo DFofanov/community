@@ -17,7 +17,7 @@ import (
 	"github.com/DFofanov/community/core/env"
 )
 
-// go test github.com/DFofanov/community/core/database -run TestGetVersion
+// go test github.com/documize/community/core/database -run TestGetVersion
 // func TestGetVersion(t *testing.T) {
 // 	ts2(t, "5.7.10", []int{5, 7, 10})
 // 	ts2(t, "5.7.10-log", []int{5, 7, 10})

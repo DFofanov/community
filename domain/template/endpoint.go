@@ -40,7 +40,7 @@ import (
 	"github.com/DFofanov/community/model/page"
 	pm "github.com/DFofanov/community/model/permission"
 
-	// "github.com/DFofanov/community/model/template"
+	// "github.com/documize/community/model/template"
 	"github.com/DFofanov/community/model/workflow"
 	uuid "github.com/nu7hatch/gouuid"
 )
