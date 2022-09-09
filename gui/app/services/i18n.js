@@ -9,7 +9,7 @@ import Service, { inject as service } from '@ember/service';
 import $ from 'jquery';
 
 export default Service.extend({
-    langs: { enUS: [], deDE: [] , zhCN: [], ptBR: [] },
+    langs: { enUS: [], deDE: [] , zhCN: [], ptBR: [], ptRU: [] },
     locales: [],
     session: service(),
 
@@ -27,6 +27,9 @@ export default Service.extend({
         $.getJSON("/i18n/pt-BR.json", (data) => {
             this.langs.ptBR = data;
         });
+        $.getJSON("/i18n/ru-RU.json", (data) => {
+            this.langs.ptRU = data;
+        });        
     },
 
     localize(key, ...args) {
@@ -45,6 +48,9 @@ export default Service.extend({
             case "pt-BR":
                 str = this.langs.ptBR[key];
                 break;
+            case "pt-RU":
+                str = this.langs.ptRU[key];
+                break;    
         }
 
         if (_.isUndefined(str)) {
